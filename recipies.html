@@ -6,16 +6,132 @@
   <title>Recipies | Fooodies</title>
 </head>
 <body onload="animateText()">
-  <header>
-      <nav id="navbar">
-          <ul>
-            <li><a href="InteractiveHomePage.html">Home</a></li>  <!-- remove extra '>' from closing li tag -->
-            <li><a href="new sign in page (1).html" id="sign up">sign up</a></li>
-            <li><a href="recipies.html">Recipies</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-          </ul>  
-      </nav>
-  </header>
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-under-meal-preview {
+font-size: 25px;
+}
+
+.about-us-heading {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.about-us-para3, .about-us-para2, .about-us-para1, .bullet-points {
+  font-size: 20px;
+}
+
+
+
+.contact-us-text {
+  text-align: center;
+  font-size: 25px;
+}
+section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+h2 {
+  margin-top: 130px;
+
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  width: auto;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.last-two-words {
+  font-weight: bold;
+  color: black;
+}
+
+.last-two-words:hover {
+  text-decoration:underline;
+  cursor: pointer;
+
+}
+.contact-section {
+  background-color: rgb(120, 120, 120);
+  height: 110;
+}
+.contact {
+  text-align: center;color: white;
+  margin-bottom: 3px;
+  
+}
+
+.final-line {
+  color: white;
+  margin-top: 2px;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+</style>
+<body>
+<nav class="navbar">
+<div class="navdiv">
+<div class="logo"> <a href="#">Fooodies</a></div>
+
+<ul>
+  <li><a href="recipies.html">Best Recipies</a></li>
+  <li><a href="recipies.html">Trending Meals</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <button>Sign In</button>
+</ul>
+</div>
+</nav>
 
 <body>
   <h1>Recipies</h1>
